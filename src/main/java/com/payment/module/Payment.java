@@ -14,8 +14,14 @@ import lombok.*;
 public class Payment 
 {
     @Id
-    @SequenceGenerator(name = "pay_seq", initialValue = 111000, allocationSize = 2)
-    @GeneratedValue(generator = "pay_seq")
+    @SequenceGenerator(
+        name = "pay_seq", 
+        initialValue = 111000, 
+        allocationSize = 2
+    )
+    @GeneratedValue(
+        generator = "pay_seq"
+    )
     private long id;
     
     private boolean isCompleted;
