@@ -16,7 +16,7 @@ spring:
 server: # Server port to run the application 
     port: 8081
 
-eureka: #Settings to connect to Eureka server
+eureka: # Settings to connect to Eureka server
    client:
       registerWithEureka: true
       fetchRegistry: true
